@@ -3,3 +3,28 @@
 2 11
 90 -1
 90 88
+
+//202234880 Kimtaewoo
+#include <stdio.h>
+
+
+//Recieve totSec Pointer, Hours, minutes, and second to
+//calculate total seconds.
+void secs(int *totSecptr, int h, int m, int s) {
+	*totSecptr = h * 3600 + m * 60 + s;
+}
+
+int main() {
+	int totSec = 0;
+	int h, m, s;
+	while (1) {
+		totSec = 0;
+		h = 0, m = 0, s = 0;
+		printf("Enter time (h m s): ");
+		scanf("%d %d %d", &h, &m, &s);
+		if (h == -1) break;
+		secs(&totSec, h, m, s);
+		printf("%d\n", totSec);
+	}
+	return 0;
+}
