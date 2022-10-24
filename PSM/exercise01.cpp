@@ -1,6 +1,6 @@
 //[0831]Exercise 1, Problem solving methods
 //202234880 Kim taewoo, 22-09-01
-#include <stdio.h>\
+#include <stdio.h>
 
 int main() {
 	int maxage = -1, minage = 1000;

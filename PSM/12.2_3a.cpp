@@ -27,3 +27,15 @@ int main() {
 	printf("Total gross pay : %.3f", sum);
 	return 0;
 }
+/*
+Under stand the problem
+Outline the solution
+Form a program structure
+Write a pesudo code
+Write the program
+Inspect the program
+Compile the program
+Test the program
+Documentation
+Maintain program/test case
+*/

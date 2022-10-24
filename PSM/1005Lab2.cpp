@@ -31,7 +31,7 @@ void create_index(struct REGESTRATION registration[], struct INDEX index[]) {
 int search_job(struct REGESTRATION registration[], struct INDEX index[],char job[]) {
 	for (int i = 0; i < 4; i++) {
 		if (strcmp(index[i].job, job) == 0) {//if job and index[i].job are same.
-			return i;
+			return index[i].index;
 		}
 	}
 	return -1;
@@ -52,11 +52,8 @@ int main() {
 	scanf("%s", job);
 	create_index(registration, index);
 	int found=search_job(registration, index,job);
-
 	if (found == -1) printf("No %s in this table!", job);
 	else printf("-> (%s, %d, %s)\n", registration[found].name, registration[found].age, registration[found].job);
+	
 	return 0;
-	//prints job
-	
-	
 }

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="0908PR_2-1.cpp" />
+    <ClCompile Include="0908PR_2-2.cpp" />
+    <ClCompile Include="0921Lab1.cpp" />
+    <ClCompile Include="1005Lab2.cpp" />
+    <ClCompile Include="12.1-1a.cpp" />
+    <ClCompile Include="12.1-2.cpp" />
+    <ClCompile Include="12.2-1.cpp" />
+    <ClCompile Include="12.2_3a.cpp" />
+    <ClCompile Include="12.3.cpp" />
+    <ClCompile Include="12.3_4.cpp" />
+    <ClCompile Include="bs.cpp" />
+    <ClCompile Include="Example4_Strcpy.cpp" />
+    <ClCompile Include="exercise01.cpp" />
+    <ClCompile Include="inclasslab.cpp" />
+    <ClCompile Include="rec.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="[1001]Assignment2.cpp" />
+    <ClCompile Include="[1008]Assignment3.cpp" />
+    <ClCompile Include="example2.cpp">
+      <Filter>Week9</Filter>
+    </ClCompile>
+    <ClCompile Include="Example1.cpp">
+      <Filter>Week9</Filter>
+    </ClCompile>
+    <ClCompile Include="exampl3.cpp">
+      <Filter>Week9</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
+    <Text Include="myInFile.txt">
+      <Filter>Week9</Filter>
+    </Text>
+    <Text Include="myOutFile.txt">
+      <Filter>Week9</Filter>
+    </Text>
+    <Text Include="charstream.txt">
+      <Filter>Week9</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Week9">
+      <UniqueIdentifier>{0ec8e5aa-cce1-479f-9722-0cbfe1865a75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="myFile.dat">
+      <Filter>Week9</Filter>
+    </None>
+  </ItemGroup>
+</Project>
