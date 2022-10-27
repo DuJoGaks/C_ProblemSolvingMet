@@ -1,24 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="0908PR_2-1.cpp" />
-    <ClCompile Include="0908PR_2-2.cpp" />
-    <ClCompile Include="0921Lab1.cpp" />
-    <ClCompile Include="1005Lab2.cpp" />
-    <ClCompile Include="12.1-1a.cpp" />
-    <ClCompile Include="12.1-2.cpp" />
-    <ClCompile Include="12.2-1.cpp" />
-    <ClCompile Include="12.2_3a.cpp" />
-    <ClCompile Include="12.3.cpp" />
-    <ClCompile Include="12.3_4.cpp" />
-    <ClCompile Include="bs.cpp" />
-    <ClCompile Include="Example4_Strcpy.cpp" />
-    <ClCompile Include="exercise01.cpp" />
-    <ClCompile Include="inclasslab.cpp" />
-    <ClCompile Include="rec.cpp" />
-    <ClCompile Include="test.cpp" />
-    <ClCompile Include="[1001]Assignment2.cpp" />
-    <ClCompile Include="[1008]Assignment3.cpp" />
     <ClCompile Include="example2.cpp">
       <Filter>Week9</Filter>
     </ClCompile>
@@ -28,9 +10,74 @@
     <ClCompile Include="exampl3.cpp">
       <Filter>Week9</Filter>
     </ClCompile>
+    <ClCompile Include="[1001]Assignment2.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="[1008]Assignment3.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="12.1-1a.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="12.1-2.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="12.2_3a.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="12.2-1.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="12.3.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="12.3_4.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="0908PR_2-1.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="0908PR_2-2.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="0921Lab1.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="1005Lab2.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="bs.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="Example4_Strcpy.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise01.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="inclasslab.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="inout.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="rec.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>BeforeMidterm</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise1_p20.cpp">
+      <Filter>Week9</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise2_p21.cpp">
+      <Filter>Week9</Filter>
+    </ClCompile>
+    <ClCompile Include="problem10_a.cpp">
+      <Filter>Week9</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="input.txt" />
     <Text Include="myInFile.txt">
       <Filter>Week9</Filter>
     </Text>
@@ -40,10 +87,22 @@
     <Text Include="charstream.txt">
       <Filter>Week9</Filter>
     </Text>
+    <Text Include="input.txt">
+      <Filter>BeforeMidterm</Filter>
+    </Text>
+    <Text Include="test.txt">
+      <Filter>BeforeMidterm</Filter>
+    </Text>
+    <Text Include="input10.txt">
+      <Filter>Week9</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Week9">
       <UniqueIdentifier>{0ec8e5aa-cce1-479f-9722-0cbfe1865a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BeforeMidterm">
+      <UniqueIdentifier>{ec202f02-dd63-4268-9e8c-900533e5d596}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
